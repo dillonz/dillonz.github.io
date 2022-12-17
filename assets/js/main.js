@@ -6,7 +6,6 @@
  */
 !(function ($) {
   'use strict';
-
   // Nav Menu
   $(document).on('click', '.nav-menu a, .mobile-nav a', function (e) {
     if (
@@ -64,6 +63,7 @@
       }
     }
   });
+
 
   // Activate/show sections on load with hash links
   if (window.location.hash) {
@@ -175,3 +175,5 @@
     $('.venobox').venobox();
   });
 })(jQuery);
+
+document.getElementById("portfolio-link").click()

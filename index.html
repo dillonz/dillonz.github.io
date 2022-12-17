@@ -41,16 +41,6 @@
   </head>
 
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
     <!-- ======= Header ======= -->
     <header id="header" class="header-tops">
       <div class="container">
@@ -67,30 +57,27 @@
         >
           Hi, I'm
         </h4>
-        <h1><a href="index.html" id="full-name">Dillon Zaugg</a></h1>
-        <!-- <h2 style="color: #fff">
-          I'm <span class="typing" style="color: #12d640"></span>
-        </h2> -->
+        <h1><div id="full-name">Dillon Zaugg</div></h1>
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active">
+            <!-- <li>
               <a href="#header"> <span>Home</span></a>
+            </li> -->
+            <li>
+              <a href="#portfolio" id="portfolio-link"> <span>Projects</span></a>
             </li>
             <li>
-              <a href="#about"><span>About</span></a>
+              <a href="#about" id="about-link"><span>About</span></a>
             </li>
             <!-- <li>
               <a href="#education"> <span>Education</span></a>
             </li> -->
-            <li>
-              <a href="#experience"> <span>Experience</span></a>
-            </li>
             <!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
             <li>
-              <a href="#portfolio"> <span>Projects</span></a>
+              <a href="#experience" id="experience-link"> <span>Experience</span></a>
             </li>
             <li>
-              <a href="#skills"> <span>Skills</span></a>
+              <a href="#skills" id="skills-link"> <span>Skills</span></a>
             </li>
             <li>
               <a
@@ -112,7 +99,7 @@
             class="linkedin"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <!-- <a href="https://github.com/todo" target="_blank" class="github"
+          <!-- <a href="https://github.com/dillonz" target="_blank" class="github"
             ><i class="bx bxl-github"></i
           ></a> -->
           <a href="mailto:dillonzaugg@gmail.com" target="_blank" class="google"
@@ -168,7 +155,16 @@
                 <ul>
                   <li>
                     <i class="icofont-rounded-right"></i>
-                    <strong>Email:</strong> dillonzaugg@gmail.com
+                    <strong>Email:</strong> <a href="mailto:dillonzaugg@gmail.com" target="_blank" class="google"
+                    >dillonzaugg@gmail.com</a>
+                  </li>
+                  <li>
+                    <i class="icofont-rounded-right"></i>
+                    <strong>LinkedIn:</strong> <a
+                    href="https://www.linkedin.com/in/dillon-zaugg-78b2abb3/"
+                    target="_blank"
+                    class="linkedin"
+                    >Dillon Zaugg</a>
                   </li>
                 </ul>
               </div>
@@ -333,8 +329,9 @@
                     href="projects/flickernaut.html"
                     data-gall="portfolioDetailsGallery"
                     data-vbtype="iframe"
-                    class="venobox"
+                    class="venobox vbox-item"
                     title="Flickernaut"
+                    data-ratio="full"
                     ><i class="bx bx-info-circle"></i
                   ></a>
                 </div>
