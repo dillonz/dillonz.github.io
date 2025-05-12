@@ -176,4 +176,4 @@
   });
 })(jQuery);
 
-document.getElementById("portfolio-link").click()
+document.getElementById("about-link").click()
